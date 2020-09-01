@@ -9,40 +9,34 @@ const SEO = (props: Props) => (
     <title>
       {`gitmoji ${
         props.pageTitle ? '| ' + props.pageTitle + ' |' : '|'
-      } An emoji guide for your commit messages`}
+      } 提交 commit 信息的 Emoji 指南`}
     </title>
     <link
       rel="canonical"
-      href={`https://gitmoji.carloscuesta.me${props.pageUrl || ''}`}
+      href={`https://neko.ayaka.moe/gitmoji/${props.pageUrl || ''}`}
     />
-    <meta name="author" content="Carlos Cuesta" />
+    <meta name="author" content="Ayaka Neko" />
     <meta
       name="description"
-      content="Gitmoji is an emoji guide for your commit messages. Aims to be a standarization cheatshee /t for using emojis on GitHub's commit messages."
+      content="提交 commit 信息的 Emoji 指南。旨在成为在 GitHub 的提交消息上使用 Emoji 的标准化速查表。"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="gitmoji" />
-    <meta
-      name="twitter:description"
-      content="An emoji guide for your commit messages."
-    />
+    <meta name="twitter:description" content="提交 commit 信息的 Emoji 指南" />
     <meta
       name="twitter:image"
-      content="https://gitmoji.carloscuesta.me/static/gitmoji.gif"
+      content="https://neko.ayaka.moe/gitmoji/static/gitmoji.gif"
     />
-    <meta name="twitter:creator" content="@crloscuesta" />
-    <meta name="twitter:url" content="https://gitmoji.carloscuesta.me" />
+    <meta name="twitter:creator" content="@ayakaneko" />
+    <meta name="twitter:url" content="https://neko.ayaka.moe/gitmoji" />
     <meta property="og:title" content="gitmoji" />
-    <meta
-      name="og:description"
-      content="An emoji guide for your commit messages."
-    />
+    <meta name="og:description" content="提交 commit 信息的 Emoji 指南" />
     <meta
       property="og:image"
-      content="https://gitmoji.carloscuesta.me/static/gitmoji.gif"
+      content="https://neko.ayaka.moe/gitmoji/static/gitmoji.gif"
     />
-    <meta name="og:url" content="https://gitmoji.carloscuesta.me" />
+    <meta name="og:url" content="https://neko.ayaka.moe/gitmoji" />
     <meta name="robots" content="index, follow" />
     <link
       rel="apple-touch-icon"
@@ -117,10 +111,6 @@ const SEO = (props: Props) => (
     <meta name="msapplication-TileColor" content="#FFDD67" />
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
     <meta name="theme-color" content="#FFDD67" />
-    <meta
-      name="google-site-verification"
-      content="78vmlhi_erc-UGybxcGwHyiUtf04wzYExTLa-4LoWio"
-    />
   </Head>
 )
 

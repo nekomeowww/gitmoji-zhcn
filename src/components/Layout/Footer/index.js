@@ -10,19 +10,20 @@ const Footer = () => (
       <div className="row middle-xs">
         <div className="col-sm-6 made-with-love">
           <h3>
-            Made with <Icon name="heart" /> by{' '}
-            <a href="https://carloscuesta.me">Carlos Cuesta</a>
+            由<a href="https://carloscuesta.me"> Carlos Cuesta </a>制作 由
+            <a href="https://github.com/nekomeowww"> Ayaka Neko </a>
+            完成中文本地化
           </h3>
         </div>
         <div className="col-sm-6 footer-nav">
           <nav>
             <Link href="/about">
-              <a>About</a>
+              <a>关于</a>
             </Link>
             <Link href="/contributors">
-              <a>Contributors</a>
+              <a>贡献者</a>
             </Link>
-            <a href="https://github.com/carloscuesta/gitmoji">GitHub</a>
+            <a href="https://github.com/nekomeowww/gitmoji-zhcn">GitHub</a>
           </nav>
         </div>
       </div>

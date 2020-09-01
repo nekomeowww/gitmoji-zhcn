@@ -18,7 +18,7 @@ const Navigation = () => (
                   window.ga('send', 'event', 'Menu', 'Gitmoji')
                 }
               >
-                Home
+                首页
               </a>
             </Link>
           </li>
@@ -27,7 +27,7 @@ const Navigation = () => (
               <a
                 onMouseDown={() => window.ga('send', 'event', 'Menu', 'About')}
               >
-                About
+                关于
               </a>
             </Link>
           </li>
@@ -38,13 +38,13 @@ const Navigation = () => (
                   window.ga('send', 'event', 'Menu', 'Contributors')
                 }
               >
-                Contributors
+                贡献者
               </a>
             </Link>
           </li>
           <li className="item">
             <a
-              href="https://github.com/carloscuesta/gitmoji"
+              href="https://github.com/nekomeowww/gitmoji-zhcn"
               onMouseDown={() => window.ga('send', 'event', 'Menu', 'GitHub')}
             >
               GitHub

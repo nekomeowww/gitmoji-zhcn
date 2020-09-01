@@ -14,30 +14,28 @@ const About = () => (
         <h1>About</h1>
 
         <p>
-          <strong>Gitmoji is an emoji guide for GitHub commit messages</strong>.
-          Aims to be a standarization cheatsheet - guide for using{' '}
-          <a href="https://emoji.muan.co">emojis</a> on GitHub's commit
-          messages.
+          <strong>Gitmoji 是一个提交信息的 Emoji 速查表指南</strong>. 旨在成为在
+          GitHub 的提交消息上使用 <a href="https://emoji.muan.co">emojis</a>{' '}
+          的标准化速查表{' '}
         </p>
 
         <p>
-          <strong>Using emojis</strong> on <strong>commit messages</strong>{' '}
-          provides an <strong>easy way</strong> of{' '}
-          <strong>identifying the purpose or intention of a commit</strong> with
-          only looking at the emojis used. As there are a lot of different
-          emojis I found the need of creating a guide that can help to use
-          emojis easier.
+          在<strong>提交信息</strong>中<strong>使用 emojis</strong> 提供了一个
+          <strong>十分简单</strong> 的方法来
+          <strong>确定一个提交的目的和原意</strong>
+          只要简单的查看 Emoji 的类型，就能快速知道意思。
+          由于存在许多不同的表情符号，我发现有必要创建一个指南，以帮助更轻松地使用
+          Emoji。
         </p>
 
         <p>
-          This project is Open Source, that means everyone can participate,
-          suggesting, discussing and adding new emojis. Take a look at the{' '}
+          这个项目是开源的，这意味着每个人都可以参与，建议，讨论和添加新的表情符号。你可以查阅{' '}
           <Link href="#contributing-gitmoji">
-            <a>contributing section</a>
+            <a>贡献者列表</a>
           </Link>{' '}
-          and{' '}
-          <a href="https://github.com/carloscuesta/gitmoji/blob/master/.github/CONTRIBUTING.md">
-            guidelines for contributing
+          以及{' '}
+          <a href="https://github.com/nekomeowww/gitmoji-zhcn/blob/master/.github/CONTRIBUTING.md">
+            贡献指南
           </a>
           .
         </p>
@@ -45,7 +43,7 @@ const About = () => (
         <div>
           <Button
             icon="star"
-            link="https://github.com/carloscuesta/gitmoji"
+            link="https://github.com/nekomeowww/gitmoji-zhcn"
             text="GitHub"
           />
 
@@ -53,9 +51,9 @@ const About = () => (
             icon="twitter"
             link={
               'https://twitter.com/intent/tweet?text=gitmoji' +
-              '%20%E2%80%93%20An%20%23emoji%20guide%20for%20your%20commit' +
-              '%20messages%20by%20%40crloscuesta%20%F0%9F%98%8D%F0%9F%98%9C' +
-              '&url=https://gitmoji.carloscuesta.me'
+              '%20%E2%80%93%20一个提交%20commit%20信息的%20%23emoji%20指南' +
+              '%20by%20%40crloscuesta%20中文本地化由%20@ayakaneko%20完成%20%F0%9F%98%8D%F0%9F%98%9C' +
+              '&url=https://neko.ayaka.moe/gitmoji'
             }
             target="_blank"
             text="Tweet"
@@ -65,15 +63,14 @@ const About = () => (
 
       <section>
         <h1>
-          Using gitmoji with{' '}
+          在 npm 中使用 gitmoji{' '}
           <a href="https://github.com/carloscuesta/gitmoji-cli">gitmoji-cli</a>
         </h1>
 
         <p>
-          An easy solution for using gitmoji from your command line, is to
-          install{' '}
+          从命令行使用 gitmoji 的一个简单解决方案是安装{' '}
           <a href="https://github.com/carloscuesta/gitmoji-cli">gitmoji-cli</a>.
-          A gitmoji interactive client for using emojis on commit messages.
+          gitmoji 交互式客户端，用于在提交消息上使用 Emoji。
         </p>
 
         <pre>
@@ -82,38 +79,37 @@ const About = () => (
       </section>
 
       <section>
-        <h1 id="contributing-gitmoji">Contributing to gitmoji</h1>
+        <h1 id="contributing-gitmoji">参与贡献 gitmoji</h1>
 
         <p>
-          Contributing to gitmoji is a piece of 🍰! This project is a static
-          website built with <i>Next.js</i>. All the gitmojis displayed are
-          rendered from a JSON file. Before submitting any pull request, please
-          follow these steps:
+          为 gitmoji 贡献一份 🍰！ 该项目是一个静态网站，使用 <i>Next.js</i>{' '}
+          构建。 显示的所有 gitmojis 都是从 JSON 文件呈现的。
+          在提交任何拉取请求之前，请遵循以下步骤:
         </p>
 
         <ol>
           <li>
             <a href="https://github.com/carloscuesta/gitmoji/issues/new">
-              Create an issue
+              创建一个 Issue
             </a>{' '}
-            filling the template.
+            填写我们提供的模版。
           </li>
           <li>
-            After discussing the idea, feature or suggestion,{' '}
+            讨论想法，功能或建议后，{' '}
             <a href="https://github.com/carloscuesta/gitmoji/fork">
               fork gitmoji
             </a>
           </li>
           <li>
-            Create a new branch with the feature name. (Eg: add-emoji-deploy,
+            为你的新特性创建一个新的分支。 (比如: add-emoji-deploy,
             fix-website-header)
           </li>
           <li>
-            Make your changes and send a{' '}
+            把你的更改提交到{' '}
             <a href="https://help.github.com/articles/creating-a-pull-request/">
-              pull request{' '}
+              来创建 Pull Request{' '}
             </a>
-            .
+            。
           </li>
         </ol>
       </section>
