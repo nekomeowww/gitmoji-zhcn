@@ -1,7 +1,7 @@
 {
   "name": "gitmojis",
   "version": "2.1.0",
-  "description": "An emoji guide for your commit messages.",
+  "description": "提交 commit 信息的 Emoji 指南",
   "private": false,
   "main": "src/data/gitmojis.json",
   "files": ["src/data/gitmojis.json"],
@@ -13,7 +13,8 @@
     "start": "next start",
     "test": "jest --coverage",
     "validate:gitmojis": "jsonlint ./src/data/gitmojis.json -V ./src/data/schema.json",
-    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis"
+    "prepublishOnly": "git checkout master && git pull && npm run validate:gitmojis",
+    "export": "next export"
   },
   "devDependencies": {
     "@babel/preset-flow": "^7.0.0",
